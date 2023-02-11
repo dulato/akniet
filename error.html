@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Обучаюший центр Акниет Айтбаевой</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="header" class="header">
+                <div class="container_special">
+                    <nav id="nav" class="nav">
+                        <div class="nav_left">
+                            <a href="#" id="logo" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+                            <a href="tel:+77773619963" id="phone" class="phone">+7 777 361 99 63</a>
+                        </div>
+                        <div class="nav_right">
+                            <ul class="menu_list">
+                                <li><a href="/" class="menu_link">Главная</a></li>
+                                <li><a href="#" class="menu_link">Контакты</a></li>
+                            </ul>
+                            <a href="#" class="main_btn popup-open">Войти</a>
+                        </div>
+                    </nav>
+                    <nav id="navbar" class="navbar">
+                        <a href="/" id="logo" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+                        <a href="tel:+77773619963" id="phone" class="phone">+7 777 361 99 63</a>
+                        <input id="menu-toggle" type="checkbox"/>
+                        <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                        </label>
+                        <ul class="menu_list">
+                            <li><a href="/" class="menu_link">Главная</a></li>
+                            <li><a href="#" class="menu_link">Контакты</a></li>
+                            <li><a href="#" class="main_btn popup-open">Войти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main id="main" class="main">
+                <div class="main_1_error">
+                    <div class="container_ main_1_error_contain">
+                        <div class="main_1_content_error">
+                            <div class="main_1_part_errors main_1_error_1">
+                                <h1 class="error_title">404</h1>
+                                <h1 class="title title_error">Страница не найдена</h1>
+                                <p class="text text_error">Перейдите на главную страницу или воспользуйтесь поиском</p>
+                                <a href="index.html" class="error_btn">Главная страница</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer id="footer" class="footer">
+                <div class="footer_top">
+                    <div class="container_">
+                        <div class="footer_top_content">
+                            <div class="footer_logo">
+                                <a href="" class="footer_logo_img"><img src="img/footer_logo.svg" alt=""></a>
+                                <h6 class="footer_logo_text">Обучающий центр Акниет Айтбаевой </h6>
+                            </div>
+                            <ul class="footer_contact_list">
+                                <li><a href="" class="footer_con_link footer_con_link_1">+7 777 361 99 63</a></li>
+                                <li><a href="" class="footer_con_link footer_con_link_2">info@glavbukh.kz</a></li>
+                                <li><a href="" class="footer_con_link footer_con_link_3">г. Алматы, Достык 44, 2 этаж, офис 141</a></li>
+                            </ul>
+                            <ul class="footer_icon_list">
+                                <li><a href="" class="footer_icon_link"><img src="img/whatsap.svg" alt=""></a></li>
+                                <li><a href="" class="footer_icon_link"><img src="img/instagram.svg" alt=""></a></li>
+                                <li><a href="" class="footer_icon_link"><img src="img/tiktok.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="container_">
+                        <div class="footer_bottom_content">
+                            <p class="foot_boot_text foot_boot_text_left">© «Обучающий центр Акниет Айтбаевой» 2022</p>
+                            <a href="" class="foot_boot_link"><img src="img/004.svg" alt=""></a>
+                            <p class="foot_boot_text foot_boot_text_right">Создание сайта <a href="https://bestsolutions.kz/" class="foot_boot_text foot_boot_text_right">BestSolutions</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="popup-fade">
+            <div class="popup">
+                <a class="popup-close" href="#"><img src="img/x.svg" alt=""></a>
+                <h3 class="req_tit">Войдите в профиль</h3>
+                <form class="request_form" action="" method="">
+                    <div class="req_email req_block">
+                        <input type="email" class="email input_req" id="email" placeholder="Почта" autocomplete="off" required>
+                    </div>
+                    <div class="req_password req_block">
+                        <input type="password" class="password input_req" id="password" placeholder="Пароль" minlength="6" maxlength="16" autocomplete="off" required>
+                    </div>
+                    <div class="req_link req_block">
+                        <a href="" class="req_link_rem">Не помню пароль</a>
+                    </div>
+                    <div class="req_button">
+                        <button class="req_btn" id="req_btn">Войти</button>
+                    </div>
+                    <div class="req_bottom">
+                        <p class="req_ques">Ещё нет профиля? <a href="" class="register">Зарегистрируйтесь</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <script src="js/jquery.js"></script>
+        <script src="https://unpkg.com/imask"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

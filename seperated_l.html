@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Обучаюший центр Акниет Айтбаевой</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <link rel="stylesheet" href="css/air-datepicker.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="header" class="header header_course">
+                <div class="container_special container_special_pos">
+                    <nav id="nav" class="nav">
+                        <div class="nav_left">
+                            <a href="#" id="logo" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+                            <a href="" id="phone" class="phone">+7 777 361 99 63</a>
+                        </div>
+                        <div class="nav_right">
+                            <ul class="menu_list menu_list_login">
+                                <li><a href="" class="menu_link">Главная</a></li>
+                                <li><a href="" class="menu_link">Контакты</a></li>
+                                <li><img src="img/0011.svg" alt=""></li>
+                                <li><a href="" class="menu_link_ic"><img src="img/0014.svg" alt=""></a></li>
+                                <li><a href="#" class="menu_link_ic menu_link_for_login"><img src="img/0013.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav id="navbar" class="navbar navbar_logged">
+                        <a href="#" id="logo" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+                        <ul class="menu_list_login menu_list_login_adaptive">
+                            <li><a href="" class="menu_link_ic"><img src="img/0014.svg" alt=""></a></li>
+                            <li><a href="#" class="menu_link_ic menu_link_for_login"><img src="img/0013.svg" alt=""></a></li>
+                        </ul>
+                    </nav>
+                    <div class="single_page">
+                        <span class="single_page_span"><img src="img/0015.svg" alt=""></span>
+                        <ul class="single_page_list">
+                            <li><a href="" class="single_page_link">Личный кабинет</a></li>
+                            <li></li>
+                            <li><a href="#" class="single_page_link edit_profile_stud">Редактировать аккаунт</a></li>
+                            <li></li>
+                            <li><a href="" class="single_page_link">Выйти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <main id="main" class="main">
+                <div class="main_1_course">
+                    <div class="container_ main_1_content_course_cont">
+                        <div class="main_1_content">
+                            <div class="main_1_parts main_1_part_1 main_1_part_1_occu">
+                                <h1 class="title" id="title">Занятия по отдельности</h1>
+                                <p class="text" id="text">Пройдя наш курс вы сможете зарабатывать от 150 000 тг и больше.</p>
+                                <form action="" class="form" id="form">
+                                    <h3 class="form_title">Получить Бесплатное пробное занятие</h3>
+                                    <div class="form_name form_block">
+                                        <label for="name" id="lb_name" class="lb_name label">Имя:</label>
+                                        <input type="text" id="name" class="name inputs" placeholder="Введите имя" maxlength="16" autocomplete="off" required>
+                                    </div>
+                                    <h5 class="notice_text">Пожалуйста, заполните поле!</h5>
+                                    <div class="form_number form_block">
+                                        <label for="number" id="lb_number" class="lb_number label">Тел:</label>
+                                        <input type="text" id="number" class="number inputs" placeholder="+7(___)-___-____." autocomplete="off" required>
+                                    </div>
+                                    <div class="form_button">
+                                        <button class="form_btn" id="form_btn">Зарегистрироваться</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_2_course">
+                    <div class="container_">
+                        <div class="main_2_course_content">
+                            <div class="main_2_course_block">
+                                <h2 class="main_2_course_block_title">Программа курса:</h2>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation">
+                                    <h4 class="main_2_course_block_occupation_title">1. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">5 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation">
+                                    <h4 class="main_2_course_block_occupation_title">2. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">10 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation">
+                                    <h4 class="main_2_course_block_occupation_title">3. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">3 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation">
+                                    <h4 class="main_2_course_block_occupation_title">4. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">7 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation">
+                                    <h4 class="main_2_course_block_occupation_title">5. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">15 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">6. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">18 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">7. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">12 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">8. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">21 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">9. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">9 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">10. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">13 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">11. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">8 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">12. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">25 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">13. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">17 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">14. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">23 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <div class="main_2_course_block_headline main_2_course_block_occupation hidden_headline">
+                                    <h4 class="main_2_course_block_occupation_title">15. Название урока</h4>
+                                    <div class="main_2_course_block_occupation_block">
+                                        <p class="main_2_course_block_occupation_text">18 000 ₸</p>
+                                        <a href="" class="main_2_course_block_occupation_btn">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="main_2_course_block_line main_2_course_block_line_occu hidden_line"></div>
+                                <ul class="main_2_course_block_list">
+                                    <li class="main_2_course_block_list_line"></li>
+                                    <li class="main_2_course_block_btn">Развернуть<span class="main_2_course_block_span"><img src="img/0010.svg" alt=""></span></li>
+                                    <li class="main_2_course_block_list_line"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_3">
+                    <div class="container_">
+                        <div class="main_3_content main_3_content_1">
+                            <h2 class="main_3_content_title main_3_content_title_1">Что вы получите</h2>
+                            <div class="main_3_content_flex main_3_content_flex_1">
+                                <div class="main_3_content_block main_3_content_block_1">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_1">Доступ к нашей учебной платформе</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_1"><img src="img/03.jpg" alt=""></div>
+                                </div>
+                                <div class="main_3_content_block main_3_content_block_2">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_2">В подарок лицензионная 1с предприятие 8.3</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_2"><img src="img/04.jpg" alt=""></div>
+                                </div>
+                                <div class="main_3_content_block main_3_content_block_3">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_3">Полноценную поддержку от преподавателя практика со стажем лет<h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_3"><img src="img/05.jpg" alt=""></div>
+                                </div>
+                                <div class="main_3_content_block main_3_content_block_4 main_3_content_block_4_4">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_4">Чат со слушателями курса</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_4"><img src="img/06.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_3_content main_3_content_2">
+                            <h2 class="main_3_content_title main_3_content_title_2">Чему вы научитесь</h2>
+                            <div class="main_3_content_flex main_3_content_flex_2">
+                                <div class="main_3_content_block main_3_content_block_5">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_5">Работать в программе 1с предприятие 8.3</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_5"><img src="img/03.jpg" alt=""></div>
+                                </div>
+                                <div class="main_3_content_block main_3_content_block_6">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_6">Вести бухгалтерский и налоговый учет</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_6"><img src="img/04.jpg" alt=""></div>
+                                </div>
+                                <div class="main_3_content_block main_3_content_block_7">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_7">Вести кадровый учет</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_7"><img src="img/05.jpg" alt=""></div>
+                                </div>
+                                <div class="main_3_content_block main_3_content_block_8">
+                                    <h4 class="main_3_content_block_title main_3_content_block_title_8">Анализировать</h4>
+                                    <div class="main_3_content_block_img main_3_content_block_img_8"><img src="img/06.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_3_content main_3_content_3">
+                            <h2 class="main_3_content_title main_3_content_title_3">Преимущества</h2>
+                            <div class="main_3_content_advantages">
+                                <div class="main_3_content_advantage main_3_content_advantage_1">
+                                    <div class="main_3_content_advantage_img main_3_content_advantage_img_1"><img src="img/005.svg" alt=""></div>
+                                    <h4 class="main_3_content_advantage_title main_3_content_advantage_title_1">Занимайтесь в любое удобное для вас время онлайн</h4>
+                                </div>
+                                <div class="main_3_content_advantage main_3_content_advantage_2">
+                                    <div class="main_3_content_advantage_img main_3_content_advantage_img_2"><img src="img/006.svg" alt=""></div>
+                                    <h4 class="main_3_content_advantage_title main_3_content_advantage_title_2">Понятная и доступная методика обучения</h4>
+                                </div>
+                                <div class="main_3_content_advantage main_3_content_advantage_3">
+                                    <div class="main_3_content_advantage_img main_3_content_advantage_img_3"><img src="img/007.svg" alt=""></div>
+                                    <h4 class="main_3_content_advantage_title main_3_content_advantage_title_3">Обучение длится 2 месяца</h4>
+                                </div>
+                                <div class="main_3_content_advantage main_3_content_advantage_4">
+                                    <div class="main_3_content_advantage_img main_3_content_advantage_img_4"><img src="img/008.svg" alt=""></div>
+                                    <h4 class="main_3_content_advantage_title main_3_content_advantage_title_4">Выдаем сертификат, помощь с трудоустройством</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_3_content_4">
+                            <h2 class="main_3_content_title main_3_content_title_4">Как обучение изменит вашу жизнь</h2>
+                            <div class="main_3_content_4_flex">
+                                <div class="main_3_content_4_block main_3_content_4_block_1">
+                                    <div class="main_3_content_4_img main_3_content_4_img_1"><img src="img/03.jpg" alt=""></div>
+                                    <h4 class="main_3_content_4_title main_3_content_4_title_1">Получите новые профессиональные навыки</h4>
+                                </div>
+                                <div class="main_3_content_4_block main_3_content_4_block_2">
+                                    <div class="main_3_content_4_img main_3_content_4_img_2"><img src="img/04.jpg" alt=""></div>
+                                    <h4 class="main_3_content_4_title main_3_content_4_title_2">Сможете найти высокооплачиваемую работу</h4>
+                                </div>
+                                <div class="main_3_content_4_block main_3_content_4_block_3">
+                                    <div class="main_3_content_4_img main_3_content_4_img_3"><img src="img/05.jpg" alt=""></div>
+                                    <h4 class="main_3_content_4_title main_3_content_4_title_3">Появятся новые горизонты роста</h4>
+                                </div>
+                                <div class="main_3_content_4_block main_3_content_4_block_4">
+                                    <div class="main_3_content_4_img main_3_content_4_img_4"><img src="img/06.jpg" alt=""></div>
+                                    <h4 class="main_3_content_4_title main_3_content_4_title_4">Улучшите качество жизни</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_4_course">
+                    <div class="container_">
+                        <div class="main_4_course_content">
+                            <div class="main_4_course_block_1">
+                                <h3 class="main_4_course_block_1_title">Стоимость курса</h3>
+                                <p class="main_4_course_block_1_des">Стоимость курса: 8 декабря</p>
+                                <h3 class="main_4_course_block_1_price">80 000 ₸ <del class="deletes">100 000 ₸</del> <span class="delete_span">20% скидка</span></h3>
+                                <a href="#" class="main_4_course_block_1_btn buy_my_courses">Купить</a>
+                            </div>
+                            <div class="main_4_course_block_2">
+                                <h4 class="main_4_course_block_2_title">Введите свои контакты и получите консультацию по курсам</h4>
+                                <form action="" id="form_course" class="form_course">
+                                    <div class="form_course_name form_course_block">
+                                        <label for="form_course_name_in" class="form_course_lb form_course_lb_name">Имя:</label>
+                                        <input type="text" id="form_course_name_in" class="form_course_inputs form_course_name_in" minlength="2" maxlength="16" placeholder="Введите имя" autocomplete="off" required>
+                                    </div>
+                                    <h5 class="notice_text_course">Пожалуйста, заполните поле!</h5>
+                                    <div class="form_course_phone form_course_block">
+                                        <label for="form_course_call_in" class="form_course_lb form_course_lb_call">Тел:</label>
+                                        <input type="text" id="form_course_call_in" class="form_course_inputs form_course_call_in" placeholder="+7(___)-___-____." autocomplete="off" required>
+                                    </div>
+                                    <div class="form_course_button">
+                                        <button class="form_course_btn" id="form_course_btn">Заказать звонок</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer id="footer" class="footer">
+                <div class="footer_top">
+                    <div class="container_">
+                        <div class="footer_top_content">
+                            <div class="footer_logo">
+                                <a href="" class="footer_logo_img"><img src="img/footer_logo.svg" alt=""></a>
+                                <h6 class="footer_logo_text">Обучающий центр Акниет Айтбаевой </h6>
+                            </div>
+                            <ul class="footer_contact_list">
+                                <li><a href="" class="footer_con_link footer_con_link_1">+7 777 361 99 63</a></li>
+                                <li><a href="" class="footer_con_link footer_con_link_2">info@glavbukh.kz</a></li>
+                                <li><a href="" class="footer_con_link footer_con_link_3">г. Алматы, Достык 44, 2 этаж, офис 141</a></li>
+                            </ul>
+                            <ul class="footer_icon_list">
+                                <li><a href="" class="footer_icon_link"><img src="img/whatsap.svg" alt=""></a></li>
+                                <li><a href="" class="footer_icon_link"><img src="img/instagram.svg" alt=""></a></li>
+                                <li><a href="" class="footer_icon_link"><img src="img/tiktok.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="container_">
+                        <div class="footer_bottom_content">
+                            <p class="foot_boot_text foot_boot_text_left">© «Обучающий центр Акниет Айтбаевой» 2022</p>
+                            <a href="" class="foot_boot_link"><img src="img/004.svg" alt=""></a>
+                            <p class="foot_boot_text foot_boot_text_right">Создание сайта <a href="" class="foot_boot_text foot_boot_text_right">BestSolutions</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="popup-fade">
+            <div class="popup">
+                <a class="popup-close" href="#"><img src="img/x.svg" alt=""></a>
+                <h3 class="req_tit">Войдите в профиль</h3>
+                <form class="request_form" action="" method="">
+                    <div class="req_email req_block">
+                        <input type="email" class="email input_req" id="email" placeholder="Почта" autocomplete="off" required>
+                    </div>
+                    <div class="req_password req_block">
+                        <input type="password" class="password input_req" id="password" placeholder="Пароль" minlength="6" maxlength="16" autocomplete="off" required>
+                    </div>
+                    <div class="req_link req_block">
+                        <a href="" class="req_link_rem">Не помню пароль</a>
+                    </div>
+                    <div class="req_button">
+                        <button class="req_btn" id="req_btn">Войти</button>
+                    </div>
+                    <div class="req_bottom">
+                        <p class="req_ques">Ещё нет профиля? <a href="" class="register">Зарегистрируйтесь</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="popup_start">
+            <div class="popup_buy_reg_content popup_start_content">
+                <a class="reg_pop_close" href="#"><img src="img/x.svg" alt=""></a>
+                <h3 class="reg_suc_title popup_start_title">Старт занятий</h3>
+                <p class="reg_suc_text popup_start_text">В календаре отмечены даты начала обучения, выберите удобную для Вас дату.</p>
+                <form action="" class="popup_start_form">
+                    <div class="popup_start_calendar">
+                        <p class="popup_start_cal_text">Начало обучения:</p>
+                        <input type="text" class="popup_start_input" id="datepicker" maxlength="10" autocomplete="off" required>
+                        <button id="popup_start_btn" class="popup_start_btn">Выбрать</button>
+                    </div>
+                </form>
+                <div class="reg_pop_line"><img src="img/015.png" alt="line"></div>
+                <div class="reg_pop_progress"><img src="img/028.png" alt="progress"></div>
+            </div>
+        </div>
+
+        <div class="popup_payment">
+            <div class="popup_buy_reg_content popup_payment_content">
+                <a class="reg_pop_close" href="#"><img src="img/x.svg" alt=""></a>
+                <h3 class="reg_suc_title popup_payment_title">Оплата за курс «Начинающий бухгалтер»</h3>
+                <p class="reg_suc_text popup_payment_text">Выберите удобный вам способ оплаты</p>
+                <div class="popup_payment_body">
+                    <a href="#" id="kaspi_kz" class="kaspi_kz">
+                        <div class="kaspi_kz_img"><img src="img/0031.svg" alt="photo"></div>
+                        <div class="kaspi_kz_text">
+                            <h5 class="kaspi_kz_text_title">Kaspi.kz QR</h5>
+                            <p class="kaspi_kz_text_p">Оплата Kaspi.kz QR</p>
+                        </div>
+                    </a>
+                    <a href="#" id="visa_mastercard" class="visa_mastercard">
+                        <div class="visa_mastercard_img"><img src="img/0032.svg" alt="photo"></div>
+                        <div class="visa_mastercard_text">
+                            <h5 class="visa_mastercard_text_title">Visa, Mastercard</h5>
+                            <p class="visa_mastercard_text_p">Оплата картой любого банка, кроме сбербанка</p>
+                        </div>
+                    </a>
+                    <a href="#" class="pay_cash" id="pay_cash">
+                        <div class="pay_cash_img"><img src="img/0033.svg" alt="photo"></div>
+                        <div class="pay_cash_text">
+                            <h5 class="pay_cash_text_title">Наличными</h5>
+                            <p class="pay_cash_text_p">Адрес: Достык 44, офис 141, этаж 2.</p>
+                        </div>
+                    </a>
+                </div>
+                <p class="popup_payment_sum">Сумма  к плате:<span>80 000 ₸ </span></p>
+                <div class="reg_pop_line"><img src="img/015.png" alt="line"></div>
+                <div class="reg_pop_progress"><img src="img/029.png" alt="progress"></div>
+            </div>
+        </div>
+
+        <div class="payment_end">
+            <div class="reg_end_content payment_end_content">
+                <div class="reg_end_body">
+                    <div class="reg_end_img"><img src="img/check-circle.svg" alt="check"></div>
+                    <h3 class="reg_end_res_info">Готово!</h3>
+                    <p class="reg_end_res_text">Желаем вам удачи на обучении</p>
+                    <div class="reg_end_btn">
+                        <button id="payment_end_btn" class="reg_end_res_btn payment_end_btn">Ок</button>
+                    </div>
+                </div>
+                <div class="reg_pop_line"><img src="img/015.png" alt="line"></div>
+                <div class="reg_pop_progress"><img src="img/030.png" alt="progress"></div>
+            </div>
+        </div>
+
+        <div class="edit_student_profile">
+            <div class="edit_student_profile_content">
+                <a class="reg_pop_close" href="#"><img src="img/x.svg" alt=""></a>
+                <form class="edit_student_profile_form">
+                    <div class="edit_student_profile_top">
+                        <div class="edit_student_profile_ava"><img src="img/0036.svg" alt="ava"></div>
+                        <div class="edit_student_profile_info">
+                            <h4 class="edit_student_profile_title">Мой профиль</h4>
+                            <input type="file" id="edit_student_profile_file" class="edit_student_profile_file">
+                            <label for="edit_student_profile_file" id="edit_student_profile_file_lb" class="edit_student_profile_file_lb">Выбрать изображение</label>
+                        </div>
+                    </div>
+                    <div class="edit_student_profile_name">
+                        <label for="edit_student_profile_name_in" id="edit_student_profile_name_lb" class="edit_student_profile_name_lb">Имя:</label>
+                        <input type="text" id="edit_student_profile_name_in" class="edit_student_profile_name_in" maxlength="16" placeholder="Не указано" required>
+                    </div>
+                    <div class="edit_student_profile_surname">
+                        <label for="edit_student_profile_surname_in" id="edit_student_profile_surname_lb" class="edit_student_profile_surname_lb">Фамилия:</label>
+                        <input type="text" id="edit_student_profile_surname_in" class="edit_student_profile_surname_in" maxlength="16" placeholder="Не указано" required>
+                    </div>
+                    <div class="edit_student_profile_lastname">
+                        <label for="edit_student_profile_lastname_in" id="edit_student_profile_lastname_lb" class="edit_student_profile_lastname_lb">Отчество:</label>
+                        <input type="text" id="edit_student_profile_lastname_in" class="edit_student_profile_lastname_in" maxlength="16" placeholder="Не указано" required>
+                    </div>
+                    <div class="edit_student_profile_sex">
+                        <label for="edit_student_profile_sex_in" id="edit_student_profile_sex_lb" class="edit_student_profile_sex_lb">Пол:</label>
+                        <input name="edit_student_profile_sex_in" id="edit_student_profile_sex_in" class="edit_student_profile_sex_in" placeholder="Не указано" autocomplete="off" required>
+                        <ul class="edit_student_profile_sex_list">
+                            <li>Мужской</li>
+                            <li>Женский</li>
+                        </ul>
+                    </div>
+                    <div class="edit_student_profile_city">
+                        <label for="edit_student_profile_city_in" id="edit_student_profile_city_lb" class="edit_student_profile_city_lb">Город:</label>
+                        <input type="text" id="edit_student_profile_city_in" class="edit_student_profile_city_in" maxlength="16" placeholder="Не указано" required>
+                    </div>
+                    <div class="edit_student_profile_email">
+                        <label for="edit_student_profile_email_in" id="edit_student_profile_email_lb" class="edit_student_profile_email_lb">Почта:</label>
+                        <input type="email" id="edit_student_profile_email_in" class="edit_student_profile_email_in" maxlength="32" placeholder="Не указано" required>
+                    </div>
+                    <div class="edit_student_profile_tel">
+                        <label for="edit_student_profile_tel_in" id="edit_student_profile_tel_lb" class="edit_student_profile_tel_lb">Телефон:</label>
+                        <input type="tel" id="edit_student_profile_tel_in" class="edit_student_profile_tel_in" placeholder="+7(___)-___-____." required>
+                    </div>
+                    <div class="my_profile_popup_line"></div>
+                    <div class="edit_student_profile_btns">
+                        <button type="reset" id="edit_student_profile_reset" class="edit_student_profile_reset">Сбросить</button>
+                        <button type="submit" id="edit_student_profile_submit" class="edit_student_profile_submit">Сохранить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+
+
+        <script src="js/jquery.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="js/air-datepicker.js"></script>
+        <script src="https://unpkg.com/imask"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
